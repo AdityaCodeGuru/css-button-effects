@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cards">
+        <div class="card c1">
+            <span class="btn-number">1</span>
+            <button class="btn btn1" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;background:#3ac0e4;border:2px solid #3ac0e4;transition:.35s linear;}.btn:hover{box-shadow:0px 0px 10px rgba(0,0,0,.2);background:white;color:#3ac0e4;}">Button</button>
+        </div>
+        <div class="card c2">
+            <span class="btn-number">2</span>
+            <button class="btn btn2" data-html="<button class='btn'><span>Button</span></button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;position:relative;overflow:hidden;border:2px solid red;z-index:99;transition:.5s all linear;box-shadow:0 0 10px rgba(0,0,0,.3);}.btn::before{content:'';width:110%;height:100%;background:red;top:-50%;left:0;position:absolute;z-index:-1;transition:.5s all ease-in-out;}.btn::after{content:'';width:110%;height:100%;background:red;top:50%;left:0;transition:.5s all ease-in-out;position:absolute;z-index:-1;}.btn:hover{color:red;}.btn:hover::after{transform:translateY(100%);}.btn:hover::before{transform:translateY(-100%);}"><span>Button</span></button>
+        </div>
+        <div class="card c3">
+            <span class="btn-number">3</span>
+            <button class="btn btn3" data-html="<button class='btn'><span>Button</span></button>" data-css=".btn{padding:20px 35px;cursor:pointer;color:white;font-weight:600;font-size:16px;background:white;position:relative;overflow:hidden;border:2px solid black;border-radius:0;}.btn::before{content:'';position:absolute;top:-10%;left:-10%;width:130%;height:150%;background:#000;transition:.4s ease-in-out;transform:skew(20deg);}.btn:hover::before{left:110%;transform:skew(0deg);}.btn span{mix-blend-mode:difference;text-transform:uppercase;font-weight:600;}"><span>Button</span></button>
+        </div>
+        <div class="card c4">
+            <span class="btn-number">4</span>
+            <button class="btn btn4" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;cursor:pointer;color:white;font-size:16px;background:#a7a7a7;font-weight:700;border:1px solid black;border-radius:5px;color:black;position:relative;box-shadow:3px 3px 0 black;transition:.2s ease-in-out;}.btn:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 black;}">Button</button>
+        </div>
+        <div class="card c5">
+            <span class="btn-number">5</span>
+            <button class="btn btn5" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;border-radius:4rem;background:#fbeee0;border:2px solid #422800;box-shadow:4px 4px 0 #422800;color:#422800;padding:15px 35px;transition:.15s;}.btn:hover{transform:translate(4px,4px);box-shadow:0 0 0 #422800;}">Button</button>
+        </div>
+        <div class="card c6">
+            <span class="btn-number">6</span>
+            <button class="btn btn6" data-html="<button class='btn'><span>Button</span></button>" data-css=".btn{padding:20px 35px;border-radius:.3rem;cursor:pointer;color:white;font-weight:600;font-size:16px;background:white;border:2px solid #0d172a;position:relative;overflow:hidden;z-index:1;}.btn::before{content:'';width:200px;height:200px;position:absolute;top:50%;left:50%;transform:translate(-50%,20%);background:#0d172a;border-radius:50%;z-index:-1;transition:.65s ease-in-out;}.btn:hover::before{transform:translate(-50%,-50%);}.btn:hover span{color:white;z-index:2;}.btn span{z-index:2;color:#0d172a;font-weight:600;transition:.65s ease-in-out;}"><span>Button</span></button>
+        </div>
+        <div class="card c7">
+            <span class="btn-number">7</span>
+            <button class="btn btn7" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;color:white;border:none;background-size:200% auto;background-image:linear-gradient(45deg,#2f52ff 0%,#1996f0 51%,#2f52ff 100%);transition:0.5s;}.btn:hover{background-position:right center;box-shadow:0 0 10px rgba(47,82,255,0.5);}">Button</button>
+        </div>
+        <div class="card c8">
+            <span class="btn-number">8</span>
+            <button class="btn btn8" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;background:black;color:white;border:none;transition:.5s ease-in-out;border-radius:1rem;box-shadow:0 0 10px rgba(0,0,0,.2);}.btn:hover{border-radius:0;}">Button</button>
+        </div>
+        <div class="card c9">
+            <span class="btn-number">9</span>
+            <button class="btn btn9" data-html="<button class='btn'>Button</button>" data-css=".btn{padding:20px 35px;border-radius:.5rem;cursor:pointer;color:white;font-weight:600;font-size:16px;border:none;border-radius:5rem;background:white;color:black;box-shadow:10px 10px 10px rgba(0,0,0,.05);transition:.5s;}.btn:hover{box-shadow:5px 5px 10px rgba(0,0,0,.2);}">Button</button>
+        </div>
+        <div class="card c10">
+            <span class="btn-number">10</span>
+            <button class="btn btn10" data-html="<button class='btn'>Button</button>" data-css=".btn{border: 1px solid black;padding:20px 35px;cursor:pointer;border-radius: 4rem;background: white;font-weight:600;font-size:16px;border: none;color: black;transition: .5s;}.btn:hover{box-shadow: 5px 5px 5px rgba(0,0,0,.08) inset,5px 5px 5px rgba(0,0,0,.03);}">Button</button>
+        </div>
+        <div class="card c11">
+            <span class="btn-number">11</span>
+            <button class="btn btn11" data-html="<button class='btn'>Click</button>" data-css=".btn{background: linear-gradient(to right, rgb(216, 26, 89), rgb(26, 39, 216)); border: none; padding: 15px 40px; border-radius: 5rem; transition: .35s; color: white; font-weight: 600; cursor: pointer;}.btn:hover{transform: scale(1.07);} .btn:active{transform: scale(1.03);}">Click</button>
+        </div>
+        <div class="card c12">
+            <span class="btn-number">12</span>
+            <button class="btn btn12" data-html="<button class='btn'>Next<span>»</span></button>" data-css=".btn{width: 150px; padding: 15px 20px; font-size: 22px; font-weight: 700; background: rgb(89, 77, 253); border: 2px solid rgb(89, 77, 253); position: relative; transition: all .5s; overflow: hidden; cursor: pointer;} .btn span{transition: all .5s; position: absolute; right: -15%; top: 46%; transform: translateY(-50%); font-size: 2rem; opacity: 0;} .btn:hover span{right: 20%; opacity: 1;} .btn:hover{padding-left: 15px; padding-right: 30px;}">Next<span>»</span></button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
