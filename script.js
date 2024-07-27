@@ -25,7 +25,7 @@ function copyToClipboard(text) {
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
-    alert("Code copied to clipboard!");
+    // alert("Code copied to clipboard!");
   }
 }
 
